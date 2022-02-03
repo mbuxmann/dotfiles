@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
+currentDir=$(pwd)
 
+ln -s $currentDir/.doom.d $HOME/.doom.d
+ln -s $currentDir/.Xdefaults $HOME/.Xdefaults
+ln -s $currentDir/.xinitrc $HOME/.xinitrc
+ln -s $currentDir/.Xresources $HOME/.Xresources
+ln -s $currentDir/.zshrc $HOME/.zshrc
 
-ln -s doom ~/.doom.d
-ln -s .Xdefault ~/.Xdefaults
-ln -s .xinitrc ~/.xinitrc
-ln -s .Xresources ~/.Xresources
-ln -s .zshrc ~/.zshrc
-
-ln -s bspwm ~/.config/bspwm
-ln -s coc ~/.config/coc
-ln -s eww ~/.config/eww 
-ln -s nvim ~/.config/nvim
-ln -s picom ~/.config/picom
-ln -s polybar ~/.config/polybar
-ln -s rofi ~/.config/rofi
+ln -s $currentDir/bspwm $HOME/.config/bspwm
+ln -s $currentDir/coc $HOME/.config/coc
+ln -s $currentDir/eww $HOME/.config/eww 
+ln -s $currentDir/nvim $HOME/.config/nvim
+ln -s $currentDir/picom $HOME/.config/picom
+ln -s $currentDir/polybar $HOME/.config/polybar
+ln -s $currentDir/rofi $HOME/.config/rofi
 
