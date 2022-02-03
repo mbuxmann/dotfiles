@@ -2,17 +2,17 @@
 
 
 
-ln -s ~/.doom.d doom
-ln -s ~/.Xdefaults .Xdefault
-ln -s ~/.xinitrc .xinitrc
-ln -s ~/.Xresources .Xresources
-ln -s ~/.zshrc .zshrc
+ln -s doom ~/.doom.d
+ln -s .Xdefault ~/.Xdefaults
+ln -s .xinitrc ~/.xinitrc
+ln -s .Xresources ~/.Xresources
+ln -s .zshrc ~/.zshrc
 
-ln -s ~/.config/bspwm bspwm
-ln -s ~/.config/coc coc
-ln -s ~/.config/eww eww
-ln -s ~/.config/nvim nvim
-ln -s ~/.config/picom picom
-ln -s ~/.config/polybar polybar
-ln -s ~/.config/rofi rofi
+ln -s bspwm ~/.config/bspwm
+ln -s coc ~/.config/coc
+ln -s eww ~/.config/eww 
+ln -s nvim ~/.config/nvim
+ln -s picom ~/.config/picom
+ln -s polybar ~/.config/polybar
+ln -s rofi ~/.config/rofi
 

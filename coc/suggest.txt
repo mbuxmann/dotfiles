@@ -1,0 +1,10 @@
+rof|rofi|file
+pic|picom|file
+confi|config|around
+ew|eww|file
+re|release|file
+tar|target|file
+con|config|around
+fetchUser|fetchUserInfo|tsserver-javascript
+iconS|iconStyle?|tsserver-javascript
+Rea|React|around
